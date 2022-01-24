@@ -29,8 +29,8 @@ public class Bmi extends JFrame{
 	setLocationRelativeTo(null);
 	c.setLayout(new GridLayout(3,2,10,10));
 	
-	w_label=new JLabel("height(cm)");
-	h_label=new JLabel("weight(kg)");
+	w_label=new JLabel("키(cm)");
+	h_label=new JLabel("체중(kg)");
 	
 	ok_btn=new JButton("Check");
 //	체중(kg) ÷ {신장(m) x 신장(m)} 
@@ -63,10 +63,10 @@ public class Bmi extends JFrame{
 	txt2=new JTextField(10);
 	
 	
-	c.add(w_label);
-	c.add(txt1);
 	c.add(h_label);
 	c.add(txt2);
+	c.add(w_label);
+	c.add(txt1);
 	c.add(ok_btn);
 	c.add(cancel_btn);
 	
